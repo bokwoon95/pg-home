@@ -1,0 +1,14 @@
+[credential]
+  helper = cache --timeout=86400
+[core]
+  pager = less
+  excludesfile = ~/.gitignore
+[alias]
+  d = difftool
+  dc = difftool --cached
+  diffc = diff --cached
+  pr = pull --rebase
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = true
